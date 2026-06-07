@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продать авто - ЕдетАвто</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sell.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="container">
+            <span class="logo">ЕдетАвто</span>
+            <nav>
+                <ul>
+                    <li class="btn"><a href="index.html">Главная</a></li>
+                    <li class="btn"><a href="https://edetauto.ru/user/auth/" target="_blank">Аукционы</a></li>
+                    <li class="btn"><a href="buy.html">Купить</a></li>
+                    <li class="btn"><a href="sell.html">Продать</a></li>
+                    <li class="btn"><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Форма -->
+        <div class="sell-container">
+            <h1>Продать автомобиль</h1>
+            <p>Заполните форму - мы свяжемся с вами</p>
+
+            <form id="sellForm">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="tel" name="phone" placeholder="Телефон" required>
+                <input type="text" name="brand" placeholder="Марка авто" required>
+                <input type="text" name="model" placeholder="Модель" required>
+                <input type="number" name="year" placeholder="Год выпуска" required>
+                
+                <button type="submit">Отправить заявку</button>
+            </form>
+
+            <div id="message"></div>
+        </div>
+
+        <!-- Подвал -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <p>© 2026 ЕдетАвто. Все права защищены.</p>
+                    <div class="footer-links">
+                        <a href="#">Политика конфиденциальности</a>
+                        <span>|</span>
+                        <a href="contacts.html">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/sell.js"></script>
+    
+</body>
+
+</html>
