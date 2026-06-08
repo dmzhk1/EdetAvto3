@@ -1,11 +1,11 @@
 console.log("Страница Контакты загрузилась!");
 
-//СЧИТАЕМ КОЛИЧЕСТВО КОНТАКТОВ
+
 let vseKontakty = document.querySelectorAll('.contact-item');
 console.log("На странице найдено контактов: " + vseKontakty.length);
 
 
-//КОПИРОВАНИЕ ТЕЛЕФОН
+
 let phoneElement = document.getElementById('phoneValue');
 
 if (phoneElement) {
@@ -18,7 +18,7 @@ if (phoneElement) {
         console.log("Скопирован телефон: " + telefon);
     });
 }
-//КОПИРОВАНИЕ EMAIL
+
 let emailElement = document.getElementById('emailValue');
 
 if (emailElement) {
@@ -32,7 +32,7 @@ if (emailElement) {
     });
 }
 
-//КОПИРОВАНИЕ TELEGRAM
+
 let telegramElement = document.getElementById('telegramValue');
 
 if (telegramElement) {
@@ -46,7 +46,7 @@ if (telegramElement) {
     });
 }
 
-//ПРИВЕТСТВИЕ ПО ВРЕМЕНИ ДНЯ
+
 let chas = new Date().getHours();
 let privetstvie = "";
 
@@ -60,7 +60,7 @@ if (chas < 12) {
 
 console.log(privetstvie);
 
-//ИНФОРМАЦИЯ О РАБОТЕ
+
 let denNedeli = new Date().getDay();
 let working = "сегодня работаем! 🟢";
 
@@ -71,7 +71,7 @@ if (denNedeli === 0) {
 console.log("Информация: " + working);
 
 
-//ВЫВОДИМ ВСЮ ИНФОРМАЦИЮ В КОНСОЛЬ
+
 console.log("=====================================");
 console.log("📞 Телефон: +7 (903) 725-33-22");
 console.log("✉️ Email: info@edetauto.ru");
