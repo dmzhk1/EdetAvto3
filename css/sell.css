@@ -108,7 +108,7 @@ header nav ul li.btn a:hover {
     top: -150px;
     right: 0;
 }
-/* Страница продажи авто */
+
 .sell-container {
     max-width: 500px;
     margin: 50px auto;
@@ -128,7 +128,7 @@ header nav ul li.btn a:hover {
     opacity: 0.8;
 }
 
-/* Форма */
+
 .sell-container form {
     display: flex;
     flex-direction: column;
@@ -156,7 +156,7 @@ header nav ul li.btn a:hover {
     border-color: #0CF9C6;
 }
 
-/* Кнопка */
+
 .sell-container button {
     padding: 14px;
     background: #0CF9C6;
@@ -175,7 +175,7 @@ header nav ul li.btn a:hover {
     background: #0addae;
 }
 
-/* Сообщение */
+
 #message {
     margin-top: 20px;
     font-weight: 500;
