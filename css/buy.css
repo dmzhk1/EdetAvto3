@@ -164,7 +164,6 @@ header nav ul li.btn a:hover {
     color: #27ae60;
 }
 
-/* Основные стили кнопки */
 .btn-red {
     display: block;
     padding: 12px;
@@ -175,7 +174,6 @@ header nav ul li.btn a:hover {
     transition: 0.3s;
 }
 
-/* Красная кнопка */
 .btn-red {
     background: #ff0000;
     color: white !important;  /* Белый цвет текста */
