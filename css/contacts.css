@@ -109,7 +109,7 @@ header nav ul li.btn a:hover {
     right: 0;
 }
 
-/* Блок с заголовком */
+
 .contacts-header {
     text-align: center;
     width: 100%;
@@ -126,7 +126,7 @@ header nav ul li.btn a:hover {
     opacity: 0.8;
 }
 
-/* Одна карточка контакта */
+
 .contact-item {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 16px;
@@ -143,19 +143,19 @@ header nav ul li.btn a:hover {
     transform: translateX(5px);
 }
 
-/* Иконка слева */
+
 .contact-icon {
     font-size: 32px;
     min-width: 50px;
     text-align: center;
 }
 
-/* Блок с текстом посередине */
+
 .contact-info {
     flex: 1;
 }
 
-/* Надпись сверху (Телефон, Email и т.д.) */
+
 .contact-label {
     font-size: 12px;
     opacity: 0.6;
@@ -164,14 +164,14 @@ header nav ul li.btn a:hover {
     letter-spacing: 0.5px;
 }
 
-/* Само значение номера/почты/адреса */
+
 .contact-value {
     font-size: 16px;
     font-weight: 500;
     word-break: break-all;
 }
 
-/* Кнопка справа */
+
 .contact-link {
     background: rgba(12, 249, 198, 0.2);
     padding: 8px 18px;
